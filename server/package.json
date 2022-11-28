@@ -2,19 +2,19 @@
   "name": "catstronauts-server-complete",
   "version": "1.0.0",
   "description": "back-end demo app for Apollo's lift-off course",
-  "type": "module",
-  "main": "src/index.ts",
+  "main": "src/index.js",
   "scripts": {
     "compile": "tsc",
-    "start": "npm run compile && node ./dist/index.js"
+    "start": "npm run compile && node ./dist/index.js",
+    "justrun": "node ./dist/index.js"
   },
   "dependencies": {
-    "@apollo/server": "^4.1.1",
-    "@apollo/usage-reporting-protobuf": "^4.0.2",
-    "@apollo/utils.fetcher": "^1.1.1",
+    "@apollo/server": "^4.2.1",
     "graphql": "^16.6.0"
   },
   "devDependencies": {
+    "@graphql-tools/mock": "^8.7.12",
+    "@graphql-tools/schema": "^9.0.10",
     "@types/node": "^18.11.9",
     "dotenv": "^8.6.0",
     "nodemon": "^2.0.20",
