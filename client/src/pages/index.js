@@ -1,5 +1,5 @@
 import React, { Fragment } from 'react';
-import { Router } from '@reach/router';
+import { BrowserRouter as Router } from 'react-router-dom'
 /** importing our pages */
 import Tracks from './tracks';
 

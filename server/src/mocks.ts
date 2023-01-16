@@ -1,7 +1,7 @@
 export const mockTracks = [
   {
     id:  'track_01',
-    title: 'Astro Kitty, Space Explorer',
+    title: 'Astro Kitty, Spack Explorer',
     author: {
         id: 'author_01',
         name: 'Grumpy Cat',
