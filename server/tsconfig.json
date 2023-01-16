@@ -11,7 +11,7 @@
     "isolatedModules": true,
     "jsx": "react-jsx",
     "lib": ["ESNext", "DOM"],
-    "module": "Node16",
+    "module": "NodeNext",
     "moduleResolution": "Node",
     "noEmit": false,
     "noFallthroughCasesInSwitch": false,
